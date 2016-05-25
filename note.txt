@@ -1,0 +1,39 @@
+install python-devel
+
+su root
+easy_install virtualenv
+
+install boost148-devel, keep previous version
+create missing symlink
+ln -s /usr/lib64/libboost_python.so.1.48.0 /usr/lib64/libboost_python.so
+
+## create dvlpt
+virtualenv dvlpt
+copy indvlpt dans ~/.local/bin
+
+https://github.com/openalea/deploy.git
+https://github.com/openalea/sconsx.git
+https://github.com/openalea/openalea.git
+
+install deploy, python setup.py install
+install sconsx, python setup.py install
+pip install scons
+modify scons script shebang manually to point on cpython
+from virtualenv in venv/bin/scons
+
+#oacpp
+indvlpt
+build oacpp
+bdist_egg oacpp
+do not install
+
+## create oa virtualenv
+virtualenv oa
+copy inoa dans ~/.local/bin
+
+activate oa
+install deploy, python setup.py install
+cd oacpp/dist
+alea_install oacpp.egg
+
+
