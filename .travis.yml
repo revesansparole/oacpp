@@ -10,6 +10,8 @@ python:
 install:
  - pip install -r requirements.txt
  - pip install -r dvlpt_requirements.txt
+ - pip install --upgrade git+https://github.com/openalea/deploy#egg=OpenAlea.Deploy
+ - pip install --upgrade git+https://github.com/openalea/sconsx#egg=OpenAlea.SConsX
 
 # command to run tests, e.g. python setup.py test
 script:
