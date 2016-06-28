@@ -26,7 +26,8 @@ script:
  - pwd
  - ls -R
  - python explore.py
- - export LD_LIBRARY_PATH=/home/travis/virtualenv/python2.7.9/lib/lib/
+ #- export LD_LIBRARY_PATH=$VIRTUAL_ENV/lib/lib/
+ - export LD_LIBRARY_PATH=./build/lib/lib
  - nosetests
 
 
