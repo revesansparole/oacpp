@@ -10,7 +10,7 @@ python:
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
- - apt-get update -qq
+ # - apt-get update -qq
  - apt-get install libboost-python-dev
  - pip install -r requirements.txt
  - pip install -r dvlpt_requirements.txt
