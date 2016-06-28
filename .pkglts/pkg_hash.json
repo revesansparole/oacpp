@@ -1,0 +1,56 @@
+{
+  ".gitignore": {
+    "github": "4mHyCOY9CHlMmQD7MG/+4gm0zdy+C6tWvMPS52+99t8m4aw5skGjcvk8xhHUnG2mWHa1+cC5/aWmylG/5Mc+oQ=="
+  }, 
+  ".travis.yml": {
+    "travis": "VpxypH+5bU67qM4lfasjZGPJUXXTn27aOBpCIEsDqSmcWDgkpEwOcTB2c/HDQw63vXNkvw+ajBSzkK7VG+xMLw=="
+  }, 
+  "AUTHORS.rst": {}, 
+  "CONTRIBUTING.rst": {}, 
+  "HISTORY.rst": {}, 
+  "LICENSE": {
+    "license": "21ExMhSzB2uXQuU1VoH7++nrb4u6TbesqGtJDpM39OLPWft9SJ2tJ956R6foYmkI9VuJay7SUrhFLPxxMEHLxg=="
+  }, 
+  "MANIFEST.in": {
+    "pysetup": "vzgcfdwg7fafu0G3HEmFsZnC8jB8sa4zeSFQ2ReZO+pUfGeynOcw4+CIzP/ZV7n5nmpGGI7xqcdcPtOFfoivdQ=="
+  }, 
+  "README.rst": {
+    "doc": "0RoLANqn1wf5lSSMxMg9ixfoqscHVb9LIezllMx+i38H6MhGIgVePerw66xxDEojhtQ3VL4Yeo5a5cPYT9SWlA=="
+  }, 
+  "doc/Makefile": {
+    "sphinx": "C58jxdu8XJNOoaWOw7VWy4LwFmS8lTQt/JeZLt5JozMSJ503plOZchucx+vAEzELbx/Czs/h9pshe9s+9HeOeQ=="
+  }, 
+  "doc/authors.rst": {}, 
+  "doc/conf.py": {
+    "sphinx": "c06EY4bzXsl3YrPEhdMGToyRKXH6JLq/Dzq5jXhrbea0yEM9ldn61qSOgfngt3uPW2QAXk1QvJZtTNNkKpNrfQ=="
+  }, 
+  "doc/contributing.rst": {}, 
+  "doc/history.rst": {}, 
+  "doc/index.rst": {}, 
+  "doc/installation.rst": {}, 
+  "doc/make.bat": {
+    "sphinx": "oA67PK7JSR3w9u1V0gOXFZAb8qgfgUJ0wQ46cVXu7M3iJyAbLf76WkEqw6Y1r5Q6EvHAogcjmImdGsOpiYZ22g=="
+  }, 
+  "doc/readme.rst": {}, 
+  "doc/usage.rst": {}, 
+  "dvlpt_requirements.txt": {
+    "pysetup": "sySlaEYOXJPlYVrKOvJOHMj5y7jQnPpNms3GjxmIZlMVnsUsyw+LzdGdcPIDG1COrb34FX01bPwNylIssxPm4w=="
+  }, 
+  "requirements.txt": {
+    "pysetup": "z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg=="
+  }, 
+  "setup.cfg": {
+    "pysetup": "1iCSDvs9xY0GOgde2dHQdpu5siqLRSbSiVZr6vEMin886x1NKrTLw0f1AJuSUwPfsoXa1a1EfRsDFadXx3Qy8A=="
+  }, 
+  "setup.py": {
+    "pysetup.call": "2wHuP94SpWKZpqOzExkQGTxnhGPgBHK3qOdPn0Ncstj5FkZ7FBGGM/inqAXaI4QLKQtTNlOUYRGSkYUWAUcf1w==", 
+    "pysetup.kwds": "t62HGwC9W8MTvWR1kLR1o4xFauvNhUtd4pG7repRyN4HUAYCA7tuOgKe+yU5pAXGb12XDpPmCsNs1Sa3eGYlWA=="
+  }, 
+  "src/oacpp/__init__.py": {
+    "base": "gR33dW0qqYmsV9NSNB+DD8XmuxnC2t0mKjnMoU5728qh97fSER6MbX+3QKxpZDLByZToaAay4xhx8acxketJmA=="
+  }, 
+  "src/oacpp/version.py": {
+    "version": "K+3dAFVYyR1elQoz21ZVBOrqgY0XrwPJadWEoPoYfnWMFnSK9FGP7Tgvsv96IzROU6RUINAea9kWp4aFPaJkAg=="
+  }, 
+  "test/__init__.py": {}
+}

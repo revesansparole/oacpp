@@ -9,9 +9,9 @@ if('win' in sys.platform):
     #compiler='msvc'
     compiler= 'mingw' # by default on windows
 
-boost_includes = "/usr/include/boost148"
-boost_lib = "/usr/lib64"
+boost_includes = "/usr/include/boost"
+boost_lib = "/usr/lib/x86_64-linux-gnu/"
 
 # boost_libs_suffix = ".1.48.0"
-pthread_lib = "/usr/lib64"
-python_libpath = "/usr/lib64"
+pthread_lib = "/usr/lib/x86_64-linux-gnu/"
+python_libpath = "/usr/lib/x86_64-linux-gnu/"
