@@ -6,12 +6,12 @@ language: python
 python:
   - "2.7"
 
-sudo: required
+#sudo: required
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
- - sudo apt-get update -qq
- - sudo apt-get install libboost-python-dev
+ - apt-get update -qq
+ - apt-get install libboost-python-dev
  - pip install -r requirements.txt
  - pip install -r dvlpt_requirements.txt
  - pip install --upgrade git+https://github.com/openalea/deploy#egg=OpenAlea.Deploy
