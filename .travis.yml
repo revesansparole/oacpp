@@ -26,7 +26,8 @@ install:
 script:
  - scons
  - python setup.py install
- - nosetests
+ - ls -R /home/travis/virtualenv/python2.7.9/lib/python2.7/site-packages/oacpp-0.1.0-py2.7-linux-x86_64.egg/
+ # - nosetests
 
 
 # #}
