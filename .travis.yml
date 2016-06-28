@@ -20,8 +20,8 @@ install:
 # command to run tests, e.g. python setup.py test
 script:
  - scons
-# - python setup.py install
-# - nosetests
+ - python setup.py install
+ - nosetests
 
 
 # #}
