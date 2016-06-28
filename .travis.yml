@@ -27,6 +27,8 @@ script:
  - scons
  - python setup.py install
  - ls -R /home/travis/virtualenv/python2.7.9/lib/python2.7/site-packages/oacpp-0.1.0-py2.7-linux-x86_64.egg/
+ - pwd
+ - export LD_LIBRARY_PATH=/home/travis/virtualenv/python2.7.9/lib/lib/
  - nosetests
 
 

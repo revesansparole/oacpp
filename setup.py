@@ -55,7 +55,6 @@ setup_kwds = dict(
 sk = setup_kwds
 
 bp = "build-scons"
-# sk['build_prefix'] = bp
 sk['scons_scripts'] = ['SConstruct']
 sk['lib_dirs'] = {'lib': bp + '/lib'}
 sk['inc_dirs'] = {'include': bp + '/include'}
