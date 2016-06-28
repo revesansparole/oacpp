@@ -61,3 +61,5 @@ doc/_dvlpt/
 
 # user custom filters
 
+build-scons
+.sconsign.dblite
