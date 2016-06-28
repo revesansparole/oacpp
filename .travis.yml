@@ -6,8 +6,6 @@ language: python
 python:
   - "2.7"
 
-#sudo: required
-
 addons:
   apt:
     packages:
@@ -15,8 +13,6 @@ addons:
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
- # - apt-get update -qq
- # - apt-get install libboost-python-dev
  - pip install -r requirements.txt
  - pip install -r dvlpt_requirements.txt
  - pip install --upgrade git+https://github.com/openalea/deploy#egg=OpenAlea.Deploy
@@ -28,6 +24,8 @@ script:
  - python setup.py install
  - ls -R /home/travis/virtualenv/python2.7.9/lib/python2.7/site-packages/oacpp-0.1.0-py2.7-linux-x86_64.egg/
  - pwd
+ - ls -R
+ - python explore.py
  - export LD_LIBRARY_PATH=/home/travis/virtualenv/python2.7.9/lib/lib/
  - nosetests
 
