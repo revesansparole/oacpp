@@ -12,7 +12,9 @@ install:
  - pip install -r dvlpt_requirements.txt
 
 # command to run tests, e.g. python setup.py test
-script: nosetests
+script:
+ - python setup.py install
+ - nosetests
 
 
 # #}
