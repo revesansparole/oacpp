@@ -10,7 +10,7 @@ python:
 addons:
   apt:
     packages:
-    - libboost-python-dev
+      - libboost-python-dev
 # {# pkglts, travis.addons
 
  #}
@@ -38,18 +38,18 @@ install:
   - conda install --file requirements.txt
   - conda install --file dvlpt_requirements.txt
 # #}
- - pip install --upgrade git+https://github.com/openalea/deploy
- - pip install --upgrade git+https://github.com/openalea/sconsx
- - scons
- - python setup.py install
- - ls -R
- - python explore.py
- #- export LD_LIBRARY_PATH=$VIRTUAL_ENV/lib/lib/
- - export LD_LIBRARY_PATH=./build/lib/lib
+  - pip install --upgrade git+https://github.com/openalea/deploy
+  - pip install --upgrade git+https://github.com/openalea/sconsx
+  - scons
+  - python setup.py install
+  - ls -R
+  - python explore.py
+  #- export LD_LIBRARY_PATH=$VIRTUAL_ENV/lib/lib/
+  - export LD_LIBRARY_PATH=./build/lib/lib
 
 script:
 # {# pkglts, travis.script
- - nosetests
+  - nosetests
 # #}
 
 after_success:
