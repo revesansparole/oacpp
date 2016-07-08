@@ -3,12 +3,12 @@
     "auto_install": true, 
     "install_front_end": "stdout", 
     "use_prompts": false, 
-    "version": 2
+    "version": 3
   }, 
   "base": {
     "authors": [
       [
-        "revesansparole",
+        "revesansparole", 
         "revesansparole@gmail.com"
       ]
     ], 
@@ -17,7 +17,7 @@
     "url": null
   }, 
   "doc": {
-    "description": "Test package for CPP Python interaction",
+    "description": "Test package for CPP Python interaction", 
     "keywords": []
   }, 
   "github": {
@@ -34,7 +34,10 @@
   "pysetup": {
     "intended_versions": [
       "27"
-    ]
+    ], 
+    "require": [[null, "scons"],
+                ["git", "openalea/deploy"],
+                ["git", "openalea/sconx"]]
   }, 
   "sphinx": {
     "autodoc_dvlpt": true, 

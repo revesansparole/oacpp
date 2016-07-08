@@ -5,6 +5,7 @@ language: python
 
 python:
   - "2.7"
+
 # #}
 
 addons:
@@ -32,16 +33,19 @@ install:
   # Useful for debugging any issues with conda
   - conda info -a
 
-  # Replace dep1 dep2 ... with your dependencies
-  - conda create -q -n test-environment python=$TRAVIS_PYTHON_VERSION
-  - source activate test-environment
-  - conda install --file requirements.txt
-  - conda install --file dvlpt_requirements.txt
-# #}
-  - pip install --upgrade git+https://github.com/openalea/deploy
-  - pip install --upgrade git+https://github.com/openalea/sconsx
-  - scons
+  - conda create -q -n myenv python=$TRAVIS_PYTHON_VERSION
+  - source activate myenv
+
+
+  - conda install scons
+  - pip install git+https://github.com/openalea/deploy
+  - pip install git+https://github.com/openalea/sconx
+  - conda install mock
+  - conda install nose
+  - conda install sphinx
+
   - python setup.py install
+# #}
   - ls -R
   - python explore.py
   #- export LD_LIBRARY_PATH=$VIRTUAL_ENV/lib/lib/
