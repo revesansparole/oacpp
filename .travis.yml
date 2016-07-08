@@ -39,7 +39,7 @@ install:
 
   - conda install scons
   - pip install git+https://github.com/openalea/deploy
-  - pip install git+https://github.com/openalea/sconx
+  - pip install git+https://github.com/openalea/sconsx
   - conda install mock
   - conda install nose
   - conda install sphinx
